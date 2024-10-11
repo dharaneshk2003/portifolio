@@ -58,7 +58,7 @@ export default function Project() {
                   Score-Cric
                 </Typography>
                 <Typography variant="body2" color="text.secondary" sx={{textAlign:'justify'}} >
-                  CricAPI is a website that integrates cricket data from various sources, offering fast responses for accessing real-time scores, match information, empowering interaction with cricket enthusiasts.
+                  CricAPI is a website that integrates cricket data from various sources, offering fast responses for accessing real-time scores, match information, including empowering interaction with cricket enthusiasts.
                 </Typography>
               </CardContent>
               <CardActions>
@@ -85,7 +85,7 @@ export default function Project() {
                   Trans-Lang
                 </Typography>
                 <Typography variant="body2" color="text.secondary" sx={{textAlign:'justify'}} >
-                TransLang Project enables seamless multilingual communication using translation API&apos;s ,which overcomes language barriers, and promoting global understanding.
+                TransLang Project enables seamless response multilingual communication using translation API&apos;s ,which overcomes language barriers, and promoting global understanding.
                 </Typography>
               </CardContent>
               <CardActions>
@@ -108,7 +108,7 @@ export default function Project() {
                   Gemini-Clone
                 </Typography>
                 <Typography variant="body2" color="text.secondary" sx={{textAlign:'justify'}} >
-                  Gemini Project aims to revolutionize digital identity management with blockchain technology, offering decentralized solutions for secure and transparent data handling across diverse industries globally.
+                  Gemini Project clone aims to revolutionize digital and  identity management with front-end technology, offering decentralized solutions for secure and transparent data handling across diverse industries globally.
                 </Typography>
               </CardContent>
               <CardActions>

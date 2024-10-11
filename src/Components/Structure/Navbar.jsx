@@ -92,17 +92,18 @@ export default function Navbar() {
   );
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+    <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh',}}>
       <CssBaseline />
       <AppBar
         component="nav"
         elevation={0}
         sx={{
           backgroundColor: 'white',
-          paddingTop: 0,
-          transition: 'transform 0.3s ease-in-out',
+          paddingTop: '0%',
+          // transition: 'transform 0.3s ease-in-out',
           transform: showAppBar ? 'translateY(0)' : 'translateY(-100%)',
-          display: { xs: 'block', lg: 'flex' }
+          display: { xs: 'block', lg: 'flex' },
+          position:'fixed'
         }}
         ref={appBarRef}
       >
@@ -134,7 +135,7 @@ export default function Navbar() {
           >
             Dharanesh Kanchustambham
           </Typography>
-          <Box sx={{ display: { xs: 'none', lg: 'block' }, marginLeft: 'auto' }}>
+          <Box sx={{ display: { xs: 'none', lg: 'block' }, marginLeft: 'auto'}}>
             {navItems.map((item, index) => (
               <Button
                 key={item}
@@ -178,7 +179,7 @@ export default function Navbar() {
         <Toolbar />
         <Typography>
           {/* Main content goes here */}
-          <div id="home" style={{ backgroundColor: '', marginTop: '10%' }}>
+          <div id="home" style={{ backgroundColor: '', marginTop: '2.5%' }}>
             <Home />
           </div>
           <div id="about">
