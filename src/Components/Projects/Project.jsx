@@ -55,7 +55,7 @@ export default function Project() {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Score-Cric
+                  Score-Cric hi
                 </Typography>
                 <Typography variant="body2" color="text.secondary" sx={{textAlign:'justify'}} >
                   CricAPI is a website that integrates cricket data from various sources, offering fast responses for accessing real-time scores, match information, including empowering interaction with cricket enthusiasts.
