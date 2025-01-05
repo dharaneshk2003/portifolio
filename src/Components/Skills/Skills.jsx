@@ -14,7 +14,6 @@ import c from "../../assets/skills_&_tools/c.png";
 import vscode from "../../assets/skills_&_tools/vscode.png";
 import git from "../../assets/skills_&_tools/git.png";
 import postman from "../../assets/skills_&_tools/postman.png";
-
 import netlify from  "../../assets/skills_&_tools/netlify.png";
 
 
