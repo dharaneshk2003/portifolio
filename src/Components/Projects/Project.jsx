@@ -188,10 +188,10 @@ export default function Project() {
               </CardContent>
               <CardActions>
                 <Button size="small" sx={{ color: "black" }}>
-                  <a href='https://github.com/dharaneshk2003/url_shortner' style={{ color: "black", textDecoration: "none" }}>Github</a>
+                  <a href='https://github.com/dharaneshk2003/ticketer' style={{ color: "black", textDecoration: "none" }}>Github</a>
                 </Button>
                 <Button size="small" sx={{ color: "black" }}>
-                  <a href='https://url-shortner-tau-seven.vercel.app/' style={{ color: "black", textDecoration: "none" }}>Live Demo</a>
+                  <a href='https://ticketer-theta.vercel.app/' style={{ color: "black", textDecoration: "none" }}>Live Demo</a>
                 </Button>
               </CardActions>
             </Card>
