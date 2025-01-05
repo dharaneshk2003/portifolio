@@ -172,6 +172,29 @@ export default function Project() {
                 </Button>
               </CardActions>
             </Card>
+             <Card sx={{ ...cardDimensions, border: "4px solid black", p: 2, borderRadius: 10 }}>
+              <CardMedia
+                sx={{ height: { xs: 160, lg: 215 } }}
+                image={ticket}
+                title="ticketer"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Ticketer
+                </Typography>
+                <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'justify' }} >
+                  The Ticketer is a online SaaS platform buy/sell and download tickets ensure smooth reserving of tickets using Queue system.
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small" sx={{ color: "black" }}>
+                  <a href='https://github.com/dharaneshk2003/url_shortner' style={{ color: "black", textDecoration: "none" }}>Github</a>
+                </Button>
+                <Button size="small" sx={{ color: "black" }}>
+                  <a href='https://url-shortner-tau-seven.vercel.app/' style={{ color: "black", textDecoration: "none" }}>Live Demo</a>
+                </Button>
+              </CardActions>
+            </Card>
           </Stack>
         </div>
       </Stack>
