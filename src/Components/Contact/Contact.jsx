@@ -18,7 +18,7 @@ const Contact = () => {
                             width: isMobile ? 50 : 70,
                             height: isMobile ? 50 : 70,
                         }} /></a></div>
-                        <div className="contact-icon"><a href="mailto:dharaneshk2003@gmail.com" style={{ color: "black", textDecoration: "none" }}> <ForwardToInboxIcon sx={{
+                        <div className="contact-icon"><a href="mailto:kanchustambham.dharanesh@gmail.com" style={{ color: "black", textDecoration: "none" }}> <ForwardToInboxIcon sx={{
                             width: isMobile ? 50 : 70,
                             height: isMobile ? 50 : 70,
                         }} /></a></div>
