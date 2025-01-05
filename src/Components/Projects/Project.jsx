@@ -125,6 +125,80 @@ export default function Project() {
             </Card>
           </Stack>
         </div>
+        <div className="project-container">
+          <Stack direction={isMobile ? "column" : "row"} spacing={{ xs: 10, lg: 25 }} className="stack-row-p">
+            <Card sx={{ ...cardDimensions, border: "4px solid black", p: 2, borderRadius: 10 }}>
+              <CardMedia
+                sx={{ height: { xs: 180, lg: 215 } }}
+                image={business}
+                title="Business-Directory"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Business-Directory
+                </Typography>
+                <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'justify' }} >
+                The Business Directory app helps users find and explore local businesses, offering easy search, categorization, and detailed listings. It simplifies business discovery.
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small" sx={{ color: "black" }}>
+                  <a href='https://github.com/dharaneshk2003/business-directory' style={{ color: "black", textDecoration: "none" }}>Github</a>
+                </Button>
+                <Button size="small" sx={{ color: "black" }}>
+                  <a href='https://drive.google.com/file/d/1mgquMsPnPhCxY244ii_YYfXW-qEAySFo/view' style={{ color: "black", textDecoration: "none" }}>Drive Link</a>
+                </Button>
+              </CardActions>
+            </Card>
+            <Card sx={{ ...cardDimensions, border: "4px solid black", p: 2, borderRadius: 10 }}>
+              <CardMedia
+                sx={{ height: { xs: 160, lg: 215 } }}
+                image={url}
+                title="URL-Trimrr"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  URL-Trimrr
+                </Typography>
+                <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'justify' }} >
+                  The URL Shortener project simplifies long URLs into compact, shareable links while tracking performance with analytics. It offers a user-friendly interface for creating, managing
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small" sx={{ color: "black" }}>
+                  <a href='https://github.com/dharaneshk2003/url_shortner' style={{ color: "black", textDecoration: "none" }}>Github</a>
+                </Button>
+                <Button size="small" sx={{ color: "black" }}>
+                  <a href='https://url-shortner-tau-seven.vercel.app/' style={{ color: "black", textDecoration: "none" }}>Live Demo</a>
+                </Button>
+              </CardActions>
+            </Card>
+             <Card sx={{ ...cardDimensions, border: "4px solid black", p: 2, borderRadius: 10 }}>
+              <CardMedia
+                sx={{ height: { xs: 160, lg: 215 } }}
+                image={ticket}
+                title="ticketer"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Ticketer
+                </Typography>
+                <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'justify' }} >
+                  The Ticketer is a online SaaS platform buy/sell and download tickets ensure smooth reserving of tickets using Queue system.
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small" sx={{ color: "black" }}>
+                  <a href='https://github.com/dharaneshk2003/ticketer' style={{ color: "black", textDecoration: "none" }}>Github</a>
+                </Button>
+                <Button size="small" sx={{ color: "black" }}>
+                  <a href='https://ticketer-theta.vercel.app/' style={{ color: "black", textDecoration: "none" }}>Live Demo</a>
+                </Button>
+              </CardActions>
+            </Card>
+          </Stack>
+        </div>
+      </Stack>
     </>
   );
 }
