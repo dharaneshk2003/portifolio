@@ -13,6 +13,7 @@ import translang from "../../assets/projects/translang.png";
 import gemini from "../../assets/projects/gemini.png";
 import url from "../../assets/projects/url.jpg";
 import business from "../../assets/projects/business.jpg";
+import ticket from "../../assets/projects/ticket.jpg";
 import "./Project.css";
 
 export default function Project() {
