@@ -103,23 +103,23 @@ export default function Project() {
             <Card sx={{ ...cardDimensions, border: "4px solid black", p: 2, borderRadius: 10 }}>
               <CardMedia
                 sx={{ height: { xs: 160, lg: 215 } }}
-                image={gemini}
-                title="Gemini-Clone"
+                image={ticket}
+                title="ticketer"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Gemini-Clone
+                  Ticketer
                 </Typography>
                 <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'justify' }} >
-                  Gemini Project clone aims to revolutionize digital and  identity management with front-end technology, offering decentralized solutions for secure.
+                  The Ticketer is a online SaaS platform buy/sell and download tickets ensure smooth reserving of tickets using Queue system.
                 </Typography>
               </CardContent>
               <CardActions>
                 <Button size="small" sx={{ color: "black" }}>
-                  <a href='https://github.com/DharaneshKanchustambham/gemini-clone' style={{ color: "black", textDecoration: "none" }}>Github</a>
+                  <a href='https://github.com/dharaneshk2003/ticketer' style={{ color: "black", textDecoration: "none" }}>Github</a>
                 </Button>
                 <Button size="small" sx={{ color: "black" }}>
-                  <a href='https://gemini-tony.netlify.app/' style={{ color: "black", textDecoration: "none" }}>Live Demo</a>
+                  <a href='https://ticketer-theta.vercel.app/' style={{ color: "black", textDecoration: "none" }}>Live Demo</a>
                 </Button>
               </CardActions>
             </Card>
@@ -170,29 +170,6 @@ export default function Project() {
                 </Button>
                 <Button size="small" sx={{ color: "black" }}>
                   <a href='https://url-shortner-tau-seven.vercel.app/' style={{ color: "black", textDecoration: "none" }}>Live Demo</a>
-                </Button>
-              </CardActions>
-            </Card>
-             <Card sx={{ ...cardDimensions, border: "4px solid black", p: 2, borderRadius: 10 }}>
-              <CardMedia
-                sx={{ height: { xs: 160, lg: 215 } }}
-                image={ticket}
-                title="ticketer"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Ticketer
-                </Typography>
-                <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'justify' }} >
-                  The Ticketer is a online SaaS platform buy/sell and download tickets ensure smooth reserving of tickets using Queue system.
-                </Typography>
-              </CardContent>
-              <CardActions>
-                <Button size="small" sx={{ color: "black" }}>
-                  <a href='https://github.com/dharaneshk2003/ticketer' style={{ color: "black", textDecoration: "none" }}>Github</a>
-                </Button>
-                <Button size="small" sx={{ color: "black" }}>
-                  <a href='https://ticketer-theta.vercel.app/' style={{ color: "black", textDecoration: "none" }}>Live Demo</a>
                 </Button>
               </CardActions>
             </Card>
