@@ -1,1 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--logos" width="31.88" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 257"><defs><linearGradient id="IconifyId1813088fe1fbc01fb466" x1="-.828%" x2="57.636%" y1="7.652%" y2="78.411%"><stop offset="0%" stop-color="#41D1FF"></stop><stop offset="100%" stop-color="#BD34FE"></stop></linearGradient><linearGradient id="IconifyId1813088fe1fbc01fb467" x1="43.376%" x2="50.316%" y1="2.242%" y2="89.03%"><stop offset="0%" stop-color="#FFEA83"></stop><stop offset="8.333%" stop-color="#FFDD35"></stop><stop offset="100%" stop-color="#FFA800"></stop></linearGradient></defs><path fill="url(#IconifyId1813088fe1fbc01fb466)" d="M255.153 37.938L134.897 252.976c-2.483 4.44-8.862 4.466-11.382.048L.875 37.958c-2.746-4.814 1.371-10.646 6.827-9.67l120.385 21.517a6.537 6.537 0 0 0 2.322-.004l117.867-21.483c5.438-.991 9.574 4.796 6.877 9.62Z"></path><path fill="url(#IconifyId1813088fe1fbc01fb467)" d="M185.432.063L96.44 17.501a3.268 3.268 0 0 0-2.634 3.014l-5.474 92.456a3.268 3.268 0 0 0 3.997 3.378l24.777-5.718c2.318-.535 4.413 1.507 3.936 3.838l-7.361 36.047c-.495 2.426 1.782 4.5 4.151 3.78l15.304-4.649c2.372-.72 4.652 1.36 4.15 3.788l-11.698 56.621c-.732 3.542 3.979 5.473 5.943 2.437l1.313-2.028l72.516-144.72c1.215-2.423-.88-5.186-3.54-4.672l-25.505 4.922c-2.396.462-4.435-1.77-3.759-4.114l16.646-57.705c.677-2.35-1.37-4.583-3.769-4.113Z"></path></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Definitions -->
+  <defs>
+    <!-- Code pattern -->
+    <pattern id="code-pattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <text x="5" y="15" font-family="monospace" font-size="10" fill="#ffffff" opacity="0.12">&lt;/&gt;</text>
+      <text x="45" y="35" font-family="monospace" font-size="10" fill="#ffffff" opacity="0.12">{ }</text>
+      <text x="25" y="55" font-family="monospace" font-size="10" fill="#ffffff" opacity="0.12">&lt;div&gt;</text>
+      <text x="65" y="75" font-family="monospace" font-size="10" fill="#ffffff" opacity="0.12">const</text>
+      <text x="5" y="95" font-family="monospace" font-size="10" fill="#ffffff" opacity="0.12">function</text>
+    </pattern>
+  </defs>
+  
+  <!-- Hexagon background (representing tech/coding) -->
+  <path d="M100,10 L170,50 L170,150 L100,190 L30,150 L30,50 Z" fill="black" />
+  
+  <!-- Code pattern overlay -->
+  <path d="M100,10 L170,50 L170,150 L100,190 L30,150 L30,50 Z" fill="url(#code-pattern)" />
+  
+  <!-- Circuit board style lines - moved more to the edge to keep center clear -->
+  <g stroke="#ffffff" stroke-width="1.5" opacity="0.3">
+    <path d="M40,50 L70,50 L70,80 L40,80 Z" fill="none" />
+    <path d="M130,50 L160,50 L160,80 L130,80 Z" fill="none" />
+    <path d="M40,120 L70,120 L70,150 L40,150 Z" fill="none" />
+    <path d="M130,120 L160,120 L160,150 L130,150 Z" fill="none" />
+    
+    <!-- Additional circuit lines -->
+    <path d="M30,90 L50,90 L50,110 L70,110" fill="none" />
+    <path d="M130,90 L150,90 L150,110 L170,110" fill="none" />
+    
+    <!-- Circuit nodes -->
+    <circle cx="70" cy="50" r="3" fill="#ffffff" opacity="0.7" />
+    <circle cx="70" cy="80" r="3" fill="#ffffff" opacity="0.7" />
+    <circle cx="40" cy="80" r="3" fill="#ffffff" opacity="0.7" />
+    <circle cx="130" cy="50" r="3" fill="#ffffff" opacity="0.7" />
+    <circle cx="160" cy="50" r="3" fill="#ffffff" opacity="0.7" />
+    <circle cx="160" cy="80" r="3" fill="#ffffff" opacity="0.7" />
+    <circle cx="40" cy="120" r="3" fill="#ffffff" opacity="0.7" />
+    <circle cx="70" cy="120" r="3" fill="#ffffff" opacity="0.7" />
+    <circle cx="70" cy="150" r="3" fill="#ffffff" opacity="0.7" />
+    <circle cx="130" cy="120" r="3" fill="#ffffff" opacity="0.7" />
+    <circle cx="160" cy="120" r="3" fill="#ffffff" opacity="0.7" />
+    <circle cx="160" cy="150" r="3" fill="#ffffff" opacity="0.7" />
+    <circle cx="50" cy="90" r="3" fill="#ffffff" opacity="0.7" />
+    <circle cx="50" cy="110" r="3" fill="#ffffff" opacity="0.7" />
+    <circle cx="70" cy="110" r="3" fill="#ffffff" opacity="0.7" />
+    <circle cx="150" cy="90" r="3" fill="#ffffff" opacity="0.7" />
+    <circle cx="150" cy="110" r="3" fill="#ffffff" opacity="0.7" />
+    <circle cx="130" cy="90" r="3" fill="#ffffff" opacity="0.7" />
+  </g>
+  
+  <!-- Central highlight circle -->
+  <circle cx="100" cy="100" r="55" fill="#ffffff" opacity="0.1" />
+  <circle cx="100" cy="100" r="50" fill="#ffffff" opacity="0.05" />
+  
+  <!-- KD initials perfectly centered -->
+  <g fill="#ffffff">
+    <!-- K -->
+    <path d="M75,60 L75,140 L90,140 L90,105 L115,140 L135,140 L100,95 L135,60 L115,60 L90,90 L90,60 Z" />
+    <!-- D -->
+    <path d="M105,60 L105,140 L135,140 C150,140 165,120 165,100 C165,80 150,60 135,60 Z M120,80 L130,80 C140,80 145,90 145,100 C145,110 140,120 130,120 L120,120 Z" />
+  </g>
+</svg>
